@@ -108,3 +108,8 @@ def main():
 
     # Confirmation message
     print(f"Program terminating..\n")
+
+
+if __name__ == '__main__':
+    main()
+    
