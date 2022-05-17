@@ -1,0 +1,6 @@
+{
+    "user": "Provide a user.",
+    "password": "Provide a password.",
+    "host": "Provide a host IP or url.",
+    "database": "Provide a databse."
+}
