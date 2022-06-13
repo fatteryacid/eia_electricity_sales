@@ -4,6 +4,8 @@ import requests
 import mysql.connector
 import sys
 
+import configparser #TODO: verify this is the right item
+
 def main():
     # Welcome message
     print(f"Hello! Program initializing..\n")
@@ -21,9 +23,11 @@ def main():
 
     # Load API information
     try:
-        f = open("/home/tyler/keys/us_gov_api.txt", "r")
+        #TODO update this block, no longer needed
+        f = open("/home/tyler/keys/us_gov_api.txt", "r")    
         api_key = f.readline()
         f.close()
+        # END block
         print(f"API key loaded successfully..\n")
 
     except OSError as err:
@@ -66,7 +70,7 @@ def main():
         
         # Make API Call
         try:
-            r = requests.get(api_url, params=parameters)
+            r = requests.get(api_url, params=parameters) #TODO change this to configreader
             r = r.json()
             
             # Print statement

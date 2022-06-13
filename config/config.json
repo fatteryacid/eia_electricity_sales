@@ -1,0 +1,14 @@
+{
+    "connection_info": {
+        "user": "Provide a user.",
+        "password": "Provide a password.",
+        "host": "Provide a host IP or url.",
+        "database": "Provide a database.",
+        "api_key": "Provide API key.",
+        "api_uri": "Provide URI here."
+    },
+    "parameters": {
+        "limit": 5000,
+        "offset": null
+    }
+}

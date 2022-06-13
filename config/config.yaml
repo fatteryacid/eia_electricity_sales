@@ -1,0 +1,21 @@
+database_info:
+  user: "Provide your user." 
+  password: "Provide your password."
+  host: "Provide your host IP or URL."
+  database: "Provide name of your database."
+
+api_info:
+  api_key: "Provide your API key."
+  api_url: "Provide your API URL."
+
+  # DEFAULT PARAMETERS
+  # To update any of the values, simply replace the text.
+  parameters:
+    limit: 5000 
+    offset: 0
+    frequency: "monthly"
+    start: "2001-01"
+    end: null
+
+    
+
